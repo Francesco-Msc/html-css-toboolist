@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Common */
+/* Common and colors*/
 
 body{
     background-color: #F6F8F9;
@@ -23,6 +23,10 @@ header, img{
 
 main{
     margin: 40px 290px;
+}
+
+.blue-tag{
+    background-color: #09A9ED;
 }
 
 /* Add buttons section */
@@ -45,4 +49,58 @@ main{
 .btn2{
     background-color: #ffffff;
     border: 1.5px solid #727272b3;
+}
+
+.add-buttons:hover{
+    border: 1.5px solid #494949cf;
+    cursor: pointer;
+}
+
+.add-buttons:active{
+    border: 1.5px solid #727272b3
+}
+
+.list-section{
+    margin-top: 2px;
+    border-radius: 0 0 4px 4px;
+    padding: 20px 30px 50px 30px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0 0 40px 15px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+.tasks{
+    font-size: 8px;
+    padding: 0 0 15px 4px;
+}
+
+.title{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.check{
+    display: inline-block;
+    border: 1px solid #38CBB1;
+    border-radius: 50%;
+    text-align: center;
+    width: 15px;
+    line-height: 13px;
+    margin-right: 10px;
+    color: #38CBB1;
+}
+
+.tag{
+    font-weight: normal;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
 }
