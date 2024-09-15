@@ -1,0 +1,20 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6F8F9;
+    font-family: "Poppins", sans-serif;
+}
+
+header, img{
+    height: 60px;
+}
+
+.container{
+    background-color: #ffffff;
+}
