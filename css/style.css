@@ -29,6 +29,18 @@ main{
     background-color: #09A9ED;
 }
 
+.purple-tag{
+    background-color: #AB5DE6;
+}
+
+.green-tag{
+    background-color: #2EC6AB;
+}
+
+.yellow-tag{
+    background-color: #FF9B00;
+}
+
 /* Add buttons section */
 
 .add-section{
@@ -60,6 +72,8 @@ main{
     border: 1.5px solid #727272b3
 }
 
+/* Task list */
+
 .list-section{
     margin-top: 2px;
     border-radius: 0 0 4px 4px;
@@ -85,6 +99,8 @@ li{
     margin-left: 10px;
 }
 
+/* Task details */
+
 .check{
     display: inline-block;
     border: 1px solid #38CBB1;
@@ -94,6 +110,13 @@ li{
     line-height: 13px;
     margin-right: 10px;
     color: #38CBB1;
+}
+
+.cross{
+    display: inline-block;
+    color: red;
+    width: 15px;
+    margin-right: 10px;
 }
 
 .tag{
