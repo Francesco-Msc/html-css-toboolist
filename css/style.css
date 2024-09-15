@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* Common */
+
 body{
     background-color: #F6F8F9;
     font-family: "Poppins", sans-serif;
@@ -17,4 +19,30 @@ header, img{
 
 .container{
     background-color: #ffffff;
+}
+
+main{
+    margin: 40px 290px;
+}
+
+/* Add buttons section */
+
+.add-section{
+    border-radius: 4px 4px 0 0;
+    padding: 10px 45px;
+}
+
+.add-buttons{
+    border-radius: 3px;
+    padding: 2px 4px;
+}
+
+.btn1{
+    background-color: #17AAF5;
+    border: 1.5px solid #00000000;
+}
+
+.btn2{
+    background-color: #ffffff;
+    border: 1.5px solid #727272b3;
 }
