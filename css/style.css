@@ -22,7 +22,8 @@ header, img{
 }
 
 main{
-    margin: 40px 290px;
+    width: 60%;
+    margin: 40px auto;
 }
 
 .blue-tag{
@@ -93,9 +94,13 @@ li{
     margin-bottom: 15px;
 }
 
-.tasks{
+.daily-task{
     font-size: 8px;
     padding: 0 0 15px 4px;
+}
+
+.tasks{
+    margin: 0;
 }
 
 .title{
@@ -130,4 +135,5 @@ li{
     margin-left: 10px;
     color: white;
     font-size: 12px;
+    display: inline-block;
 }
